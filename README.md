@@ -102,6 +102,13 @@ np.savetxt([save_name + '_labels.txt'], labels, delimiter=' ', newline='\n') # f
 
 * **Francesca Grisoni** (https://github.com/FrancescaGrisoni)
 
+Contributors to the WHALES descriptors project:
+* Francesca Grisoni, University of Milano-Bicocca & ETH-Zurich
+* Prof. Dr. Gisbert Schneider, ETH Zurich, gisbert.schneider@pharma.ethz.ch
+* Dr. Viviana Consonni, University of Milano-Bicocca
+* Dr. Roberto Todeschini, University of Milano-Bicocca
+
+
 See also the list of [contributors](https://github.com/FrancescaGrisoni/whales_descriptors/contributors) who participated in this project.
 
 ## License
