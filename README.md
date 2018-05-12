@@ -34,8 +34,6 @@ conda install -c https://conda.anaconda.org.nickvandewiele rdkit
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
 The repository can be cloned as follows
 
 ```
