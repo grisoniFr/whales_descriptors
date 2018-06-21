@@ -40,7 +40,8 @@ def main(suppl, charge_threshold=0, do_charge=True, property_name=''):
     t = time.time()  # for elapsed time
 
     print(" ")
-    print("WHALES descriptors, v. 1. May 2018")
+    print("WHALES descriptors, v. 1.")
+    print(" Last update: 21 June 2018")
     print(" ")
 
     # initialization
@@ -108,7 +109,7 @@ def import_mol(mol):
         sanit_fail = Chem.SanitizeMol(mol, catchErrors=True, sanitizeOps=san_opt)
         if sanit_fail:
             raise ValueError(sanit_fail)
-            err = 0
+            err = 1
 
     return mol, err
 
