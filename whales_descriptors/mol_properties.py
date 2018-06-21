@@ -46,6 +46,10 @@ def get_coordinates_and_prop(mol, property_name='partial_charges', do_charge=Fal
 
             # gets atomic properties
             w[atom] = mol.GetAtomWithIdx(atom).GetProp(property_name)
+            
+        # checks the weight values computed and throws and error if they are all 0
+        if all(v == 0 for v in w):
+            err = 1
     else:
         coords = []
         w = []
