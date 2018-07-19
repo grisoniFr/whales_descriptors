@@ -28,7 +28,13 @@ The environment can be created with conda as follows:
 ```
 conda create -n whales_env python=2.7*
 activate whales_env
+```
+The RDKit repositories can be listed with the following command:
+```
 anaconda search -t conda rdkit
+```
+Choose then the best installation according to the platform:
+```
 conda install -c https://conda.anaconda.org.nickvandewiele rdkit
 ```
 
