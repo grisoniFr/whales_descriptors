@@ -37,7 +37,7 @@ conda install -c https://conda.anaconda.org.nickvandewiele rdkit
 The repository can be cloned as follows
 
 ```
-git clone https://github.com/FrancescaGrisoni/WHALES-descriptors.git
+git clone https://github.com/grisoniFr/WHALES-descriptors.git
 ```
 
 Change directory to your local Git repository and to the main WHALES folder e.g., < git_repository\current_user>\WHALES-descriptors\
