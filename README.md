@@ -23,6 +23,9 @@ The following prerequisites are needed:
 
 *[pandas](https://pandas.pydata.org)
 
+A guide to the correct installation is provided in the following paragraph.
+
+### Preliminary steps
 It is suggested to run all the calculations within an RDKit environment. 
 The environment can be created with conda as follows:
 ```
@@ -37,8 +40,14 @@ Choose then the best installation for py27 according to the platform. For instan
 ```
 conda install -c https://conda.anaconda.org/nickvandewiele rdkit
 ```
+Now install the necessary prerequisites
+```
+sudo apt-get install python-setuptools
+sudo apt install git
+python -m pip install --user pandas
+```
 
-### Installing
+### Installing WHALES repository
 
 The repository can be cloned as follows
 
