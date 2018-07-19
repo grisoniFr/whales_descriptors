@@ -26,6 +26,9 @@ The following prerequisites are needed:
 A guide to the correct installation is provided in the following paragraph.
 
 ### Preliminary steps
+
+Install conda from the [official website](https://www.anaconda.com/download/). Once conda is installed, it can be used to generate the environment and download RDKit. If you already have RDKit and pandas up and running, you can move to the next paragraph. 
+
 It is suggested to run all the calculations within an RDKit environment. 
 The environment can be created with conda as follows:
 ```
