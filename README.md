@@ -33,9 +33,9 @@ The RDKit repositories can be listed with the following command:
 ```
 anaconda search -t conda rdkit
 ```
-Choose then the best installation according to the platform:
+Choose then the best installation for py27 according to the platform. For instance:
 ```
-conda install -c https://conda.anaconda.org.nickvandewiele rdkit
+conda install -c https://conda.anaconda.org/nickvandewiele rdkit
 ```
 
 ### Installing
