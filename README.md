@@ -46,7 +46,7 @@ The repository can be cloned as follows
 git clone https://github.com/grisoniFr/WHALES_descriptors.git
 ```
 
-Change directory to your local Git repository and to the main WHALES folder e.g., < git_repository\current_user>\WHALES-descriptors\ >
+Change directory to your local Git repository and to the main WHALES folder e.g., < git_repository\current_user>\WHALES-descriptors\ 
 
 Then, install the package as follows:
 ```
