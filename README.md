@@ -37,7 +37,7 @@ conda install -c https://conda.anaconda.org.nickvandewiele rdkit
 The repository can be cloned as follows
 
 ```
-git clone https://github.com/grisoniFr/WHALES-descriptors.git
+git clone https://github.com/grisoniFr/WHALES_descriptors.git
 ```
 
 Change directory to your local Git repository and to the main WHALES folder e.g., < git_repository\current_user>\WHALES-descriptors\
@@ -100,7 +100,7 @@ np.savetxt([save_name + '_labels.txt'], labels, delimiter=' ', newline='\n') # f
 
 ## Authors
 
-* **Francesca Grisoni** (https://github.com/FrancescaGrisoni)
+* **Francesca Grisoni** (https://github.com/grisoniFr)
 
 Contributors to the WHALES descriptors project:
 * Francesca Grisoni, University of Milano-Bicocca & ETH-Zurich
