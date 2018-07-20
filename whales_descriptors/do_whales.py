@@ -40,17 +40,15 @@ def main(suppl, charge_threshold=0, do_charge=True, property_name=''):
     t = time.time()  # for elapsed time
 
     print(" ")
-    print("WHALES descriptors, v. 1.")
-    print(" Last update: 21 June 2018")
+    print("WHALES descriptors, v. 1.1")
+    print(" Last update: 20 July 2018")
     print(" ")
 
     # initialization
     descriptors = ps.DataFrame()
     index = 0
-    n_mol = len(suppl)
     errors = 0
 
-    print("Total: " + str(n_mol) + ' molecules')
     print(" ")
 
     # extract molecules
@@ -59,7 +57,7 @@ def main(suppl, charge_threshold=0, do_charge=True, property_name=''):
         # display
         index += 1
         if index % 50 == 0:
-            print 'Mol: ' + str(index) + '/' + str(n_mol)
+            print 'Mol: ' + str(index)
 
         # check for correct molecule import, throw an error if import/sanitization fail
         mol, err = import_mol(mol)
