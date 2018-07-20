@@ -50,13 +50,13 @@ def main(suppl, charge_threshold=0, do_charge=True, property_name=''):
     errors = 0
 
     print(" ")
-
+    print(" ... calculation started.")
     # extract molecules
     for mol in suppl:  # loops over molecules
 
         # display
         index += 1
-        if index % 50 == 0:
+        if index % 100 == 0:
             print 'Mol: ' + str(index)
 
         # check for correct molecule import, throw an error if import/sanitization fail
