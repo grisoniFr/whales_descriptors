@@ -107,7 +107,7 @@ Returns:
 * x (n_mol,p): descriptor matrix, each row corresponds to a molecule
 * labels (1,p): descriptor labels
 
-Molecules for which calculation errors were encountered, the descriptor values were set to -999. 
+N.B. If a calculation error occurs for a given molecule (e.g., no partial charges computed), the corresponding descriptor values are set to -999. 
 
 ### Export descriptors values as a .txt file
 
