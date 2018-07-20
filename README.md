@@ -81,6 +81,10 @@ RDKit suppliers have to be used as the input for WHALES calculation, for instanc
 from rdkit import Chem # imports package
 suppl = Chem.SDMolSupplier(filename) # generates an rdkit supplier file
 ```
+If the molecules are more than approx. 10,000, it is suggested to use ForwardMolSupplier, instead:
+```
+suppl = Chem.ForwardSDMolSupplier(filename) 
+```
 Note that geometrical coordinates have to be specified/computed in order to calculate WHALES descriptors.
 
 ### Utilizing WHALES descriptors
