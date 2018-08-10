@@ -4,8 +4,7 @@ This repository contains all the necessary files to compute Weighted Holistic At
 
 For more information regarding the method, have a look at:
 
-Grisoni et al., "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry*, 2018
-available at: xxxxx
+Grisoni et al., "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry*, 44, 2018.
 
 ## Getting Started
 
