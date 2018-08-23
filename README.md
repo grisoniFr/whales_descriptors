@@ -4,7 +4,7 @@ This repository contains all the necessary files to compute Weighted Holistic At
 
 For more information regarding the method, have a look at:
 
-Grisoni et al., "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry*, 44, 2018.
+Grisoni et al., "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry* 1, 44, 2018. (Freely available at this [link](https://www.nature.com/articles/s42004-018-0043-x))
 
 ## Getting Started
 
@@ -114,10 +114,10 @@ The results can be exported as a plain txt file as follows:
 
 ```
 import numpy as np
+save_name = 'results' # example name
 np.savetxt([save_name + '_whales.txt'], res, delimiter=' ', newline='\n') # for descriptors
 np.savetxt([save_name + '_labels.txt'], labels, delimiter=' ', newline='\n') # for labels
 ```
-
 
 ## Authors
 
@@ -128,6 +128,7 @@ Contributors to the WHALES descriptors project:
 * Prof. Dr. Gisbert Schneider, ETH Zurich, gisbert.schneider@pharma.ethz.ch
 * Dr. Viviana Consonni, University of Milano-Bicocca
 * Prof. Roberto Todeschini, University of Milano-Bicocca
+* Dr. Daniel Merk, ETH Zurich
 
 
 See also the list of [contributors](https://github.com/FrancescaGrisoni/whales_descriptors/contributors) who participated in this project.
