@@ -9,7 +9,10 @@
 # atoms.
 #
 # Francesca Grisoni, May 2018, ETH Zurich & University of Milano-Bicocca, francesca.grisoni@unimib.it
-# please cite as xxxx
+# please cite as: 
+#   Francesca Grisoni, Daniel Merk, Viviana Consonni, Jan A. Hiss, Sara Giani Tagliabue, Roberto Todeschini & Gisbert Schneider 
+#   "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", 
+#   Nature Communications Chemistry 1, 44, 2018.
 # ======================================================================================================================
 import numpy as np
 
