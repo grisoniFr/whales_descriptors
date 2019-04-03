@@ -36,6 +36,10 @@ activate whales_env
 ```
 The RDKit repositories can be listed with the following command:
 ```
+conda install -c rdkit rdkit
+```
+Alternatively, you can also try with the following:
+```
 anaconda search -t conda rdkit
 ```
 Choose then the best installation for py27 according to the platform. For instance:
