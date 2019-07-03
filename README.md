@@ -119,7 +119,7 @@ The results can be exported as a plain txt file as follows:
 ```
 import numpy as np
 save_name = 'results' # example name
-np.savetxt([save_name + '_whales.txt'], res, delimiter=' ', newline='\n') # for descriptors
+np.savetxt([save_name + '_whales.txt'], x, delimiter=' ', newline='\n') # for descriptors
 np.savetxt([save_name + '_labels.txt'], labels, delimiter=' ', newline='\n') # for labels
 ```
 
