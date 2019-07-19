@@ -132,7 +132,6 @@ Contributors to the WHALES descriptors project:
 * Prof. Dr. Gisbert Schneider, ETH Zurich, gisbert.schneider@pharma.ethz.ch
 * Dr. Viviana Consonni, University of Milano-Bicocca
 * Prof. Roberto Todeschini, University of Milano-Bicocca
-* Dr. Daniel Merk, ETH Zurich
 
 
 See also the list of [contributors](https://github.com/FrancescaGrisoni/whales_descriptors/contributors) who participated in this project.
