@@ -81,6 +81,7 @@ If no errors are displayed, WHALES package has been succesfully installed.
 RDKit suppliers have to be used as the input for WHALES calculation, for instance:
 
 ```
+python # start python
 from rdkit import Chem # imports package
 suppl = Chem.SDMolSupplier(filename) # generates an rdkit supplier file
 ```
