@@ -119,9 +119,10 @@ The results can be exported as a plain txt file as follows:
 
 ```
 import numpy as np
-np.savetxt([save_name + '_whales.txt'], x, delimiter=' ', newline='\n') # for descriptors
-np.savetxt([save_name + '_labels.txt'], labels, delimiter=' ', newline='\n') # for labels
+np.savetxt(save_name + '_whales.txt', x, delimiter=' ', newline='\n') # for descriptors
+np.savetxt(save_name + '_labels.txt', labels, delimiter=' ', newline='\n',fmt='%s') # for labels
 ```
+where "save_name" is a user-defined name, e.g., "WHALES_descriptors".
 
 ## Authors
 
