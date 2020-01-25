@@ -7,9 +7,7 @@
 
 This repository contains all the necessary files to compute Weighted Holistic Atom Localization and Entity Shape (WHALES) descriptors starting from an rdkit supplier file.
 
-For more information regarding the method, have a look at:
-
-Francesca Grisoni, Daniel Merk, Viviana Consonni, Jan A. Hiss, Sara Giani Tagliabue, Roberto Todeschini & Gisbert Schneider "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry* 1, 44, 2018. (Freely available at this [link](https://www.nature.com/articles/s42004-018-0043-x))
+For more information regarding the method, have a look at: F. Grisoni, D. Merk, V. Consonni, J.A. Hiss, S. Giani Tagliabue, R. Todeschini, Gisbert Schneider "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry* 1, 44, 2018. (Open access manuscript available [here](https://www.nature.com/articles/s42004-018-0043-x))
 
 ## Table of Contents
 1. [Getting started](#getting started) 
