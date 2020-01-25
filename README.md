@@ -13,7 +13,7 @@ For more information regarding the method, have a look at: F. Grisoni, D. Merk, 
 ## What is new in version 2
 in progress
 
-You can access the previous version (WHALES v.1.1) at the following [here](https://github.com/grisoniFr/whales_descriptors/tree/v.1.1)
+You can access the previous version (WHALES v.1.1) [here](https://github.com/grisoniFr/whales_descriptors/tree/v.1.1)
 
 ## Table of Contents
 1. Getting started
