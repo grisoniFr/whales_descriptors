@@ -1,3 +1,8 @@
+![repo version](https://img.shields.io/badge/Version-v.2.0-green)
+![python version](https://img.shields.io/badge/python-v.3.6-blue)
+![license](https://img.shields.io/badge/license-CC_BY_4.0-orange)
+
+
 # WHALES descriptors
 
 This repository contains all the necessary files to compute Weighted Holistic Atom Localization and Entity Shape (WHALES) descriptors starting from an rdkit supplier file.
