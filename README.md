@@ -32,7 +32,7 @@ Use the following command to clone the repository:
 ```
 git clone https://github.com/grisoniFr/whales_descriptors.git
 ```
-To install the necessary packages to run the code, [conda](https://www.anaconda.com/download/) is recommended.  <br /> 
+To install the necessary packages to run the code, [conda](https://www.anaconda.com/download/) (for Python v3) is recommended.  <br /> 
 Once conda is installed, you can install the virtual environment:
 ```
 cd path/to/repository/
