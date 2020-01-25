@@ -1,4 +1,4 @@
-# WHALES descriptors (v2)
+# WHALES descriptors
 
 This repository contains all the necessary files to compute Weighted Holistic Atom Localization and Entity Shape (WHALES) descriptors starting from an rdkit supplier file.
 
