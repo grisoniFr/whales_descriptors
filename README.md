@@ -11,6 +11,7 @@ Francesca Grisoni, Daniel Merk, Viviana Consonni, Jan A. Hiss, Sara Giani Taglia
 2. [Using the Code](#using the code)
 4. [Authors](#authors)
 5. [License](#license)
+6. [Papers using WHALES descriptors](#papers) 
 6. [How to cite](#cite) 
 
 
@@ -148,7 +149,7 @@ Contributors to the WHALES descriptors project:
 
 See also the list of [contributors](https://github.com/FrancescaGrisoni/whales_descriptors/contributors) who participated in this project.
 
-## Publications that used WHALES descriptors
+## Papers that used WHALES descriptors <a name="getting started"></a>
 * Grisoni et al. "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry* 1, 44, 2018. ([link](https://www.nature.com/articles/s42004-018-0043-x))
 * Merk et al. "Scaffold hopping from synthetic RXR modulators by virtual screening and de novo design", *Med. Chem. Commun.*, 2018, 9, 1289-1292. ([link](https://pubs.rsc.org/en/content/articlepdf/2018/md/c8md00134k))
 * Merk et al. "De Novo Design of Bioactive Small Molecules by Artificial Intelligence", *Mol. Inf.*, 2018, 1700153. ([link](https://onlinelibrary.wiley.com/doi/epdf/10.1002/minf.201700153))
