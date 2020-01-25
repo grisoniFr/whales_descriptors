@@ -1,4 +1,4 @@
-# WHALES descriptors
+# WHALES descriptors (v2)
 
 This repository contains all the necessary files to compute Weighted Holistic Atom Localization and Entity Shape (WHALES) descriptors starting from an rdkit supplier file.
 
@@ -6,11 +6,24 @@ For more information regarding the method, have a look at:
 
 Francesca Grisoni, Daniel Merk, Viviana Consonni, Jan A. Hiss, Sara Giani Tagliabue, Roberto Todeschini & Gisbert Schneider "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry* 1, 44, 2018. (Freely available at this [link](https://www.nature.com/articles/s42004-018-0043-x))
 
-## Getting Started
+## Table of Contents
+1. [Getting started](#Prerequisites)
+  1.1. [Prerequisites](#Prerequisites)
+  1.2. [Installation](#Installation)
+2. [Using the Code](#using the code)
+4. [Authors](#authors)
+5. [License](#license)
+6. [How to cite](#cite) 
+
+
+## What is new in version 2
+
+
+## Getting Started <a name="getting started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine.
 
-### Prerequisites
+### Prerequisites <a name="Prerequisites"></a>
 
 The following prerequisites are needed:
 
@@ -53,7 +66,7 @@ sudo apt install git
 python -m pip install --user pandas
 ```
 
-### Installing WHALES repository
+### Installation <a name="Installation"></a>
 
 The repository can be cloned as follows
 
@@ -75,7 +88,7 @@ quit()
 ```
 If no errors are displayed, WHALES package has been succesfully installed. 
 
-## Using the package
+## Using the code <a name="using the code"></a>
 
 ### Importing molecular files
 RDKit suppliers have to be used as the input for WHALES calculation, for instance:
@@ -124,7 +137,7 @@ np.savetxt(save_name + '_labels.txt', labels, delimiter=' ', newline='\n',fmt='%
 ```
 where "save_name" is a user-defined name, e.g., "WHALES_descriptors".
 
-## Authors
+## Authors <a name="authors"></a>
 
 * **Francesca Grisoni** (https://github.com/grisoniFr)
 
@@ -142,8 +155,26 @@ See also the list of [contributors](https://github.com/FrancescaGrisoni/whales_d
 * Merk et al. "Scaffold hopping from synthetic RXR modulators by virtual screening and de novo design", *Med. Chem. Commun.*, 2018, 9, 1289-1292. ([link](https://pubs.rsc.org/en/content/articlepdf/2018/md/c8md00134k))
 * Merk et al. "De Novo Design of Bioactive Small Molecules by Artificial Intelligence", *Mol. Inf.*, 2018, 1700153. ([link](https://onlinelibrary.wiley.com/doi/epdf/10.1002/minf.201700153))
 
-## License
+## License <a name="license"></a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 See the [LICENSE.md](LICENSE.md) file for additional details. 
+
+## How to cite <a name="cite"></a>
+If you use this code (or parts thereof), please cite it as:
+
+```
+@article{grisoni2018scaffold,
+  title={Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity},
+  author={Grisoni, Francesca and Merk, Daniel and Consonni, Viviana and Hiss, Jan A and Tagliabue, Sara Giani and Todeschini, Roberto and Schneider, Gisbert},
+  journal={Communications Chemistry},
+  volume={1},
+  number={1},
+  pages={1--9},
+  year={2018},
+  doi={10.1038/s42004-018-0043-x},
+  url={https://doi.org/10.1038/s42004-018-0043-x},
+  publisher={Nature Publishing Group}
+}
+```
 
