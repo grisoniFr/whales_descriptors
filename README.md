@@ -7,7 +7,7 @@ For more information regarding the method, have a look at:
 Francesca Grisoni, Daniel Merk, Viviana Consonni, Jan A. Hiss, Sara Giani Tagliabue, Roberto Todeschini & Gisbert Schneider "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry* 1, 44, 2018. (Freely available at this [link](https://www.nature.com/articles/s42004-018-0043-x))
 
 ## Table of Contents
-1. [Getting started](#getting started)
+1. [Getting started](#getting started) 
 2. [Using the Code](#using the code)
 4. [Authors](#authors)
 5. [License](#license)
@@ -15,7 +15,7 @@ Francesca Grisoni, Daniel Merk, Viviana Consonni, Jan A. Hiss, Sara Giani Taglia
 
 
 ## What is new in version 2
-
+in progress
 
 ## Getting Started <a name="getting started"></a>
 
