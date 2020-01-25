@@ -9,19 +9,21 @@ This repository contains all the necessary files to compute Weighted Holistic At
 
 For more information regarding the method, have a look at: F. Grisoni, D. Merk, V. Consonni, J.A. Hiss, S. Giani Tagliabue, R. Todeschini, Gisbert Schneider "Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity", *Nature Communications Chemistry* 1, 44, 2018. (Open access manuscript available [here](https://www.nature.com/articles/s42004-018-0043-x))
 
-## Table of Contents
-1. [Getting started](#getting started) 
-2. [Using the Code](#using the code)
-4. [Authors](#authors)
-5. [License](#license)
-6. [Papers using WHALES descriptors](#papers) 
-6. [How to cite](#cite) 
-
 
 ## What is new in version 2
 in progress
 
 You can access the previous version (WHALES v.1.1) at the following [here](https://github.com/grisoniFr/whales_descriptors/tree/v.1.1)
+
+## Table of Contents
+1. Getting started
+2. Using the Code
+3. [Authors](#authors)
+4. [License](#license)
+5. [Papers using WHALES descriptors](#papers) 
+6. [How to cite](#cite) 
+
+
 
 ## Getting Started <a name="getting started"></a>
 
