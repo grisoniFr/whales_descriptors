@@ -27,72 +27,23 @@ You can access the previous version (WHALES v.1.1) at the following [here](https
 
 ## Getting Started <a name="getting started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine.
-
-### Prerequisites <a name="Prerequisites"></a>
-
-The following prerequisites are needed:
-
-*[Python 2.7*](https://www.python.org/download/releases/2.7/)
-
-*[RDKit](http://www.rdkit.org/docs/Install.html)
-
-*[NumPy](https://scipy.org/install.html)
-
-*[pandas](https://pandas.pydata.org)
-
-A guide to the correct installation is provided in the following paragraph.
-
-### Preliminary steps
-
-Install conda from the [official website](https://www.anaconda.com/download/). Once conda is installed, it can be used to generate the environment and download RDKit. If you already have RDKit and pandas up and running, you can move to the next paragraph. 
-
-It is suggested to run all the calculations within an RDKit environment. 
-The environment can be created with conda as follows:
-```
-conda create -n whales_env python=2.7*
-activate whales_env
-```
-The RDKit repositories can be listed with the following command:
-```
-conda install -c rdkit rdkit
-```
-Alternatively, you can also try with the following:
-```
-anaconda search -t conda rdkit
-```
-Choose then the best installation for py27 according to the platform. For instance:
-```
-conda install -c https://conda.anaconda.org/nickvandewiele rdkit
-```
-Now install the necessary prerequisites
-```
-sudo apt-get install python-setuptools
-sudo apt install git
-python -m pip install --user pandas
-```
-
-### Installation <a name="Installation"></a>
-
-The repository can be cloned as follows
+Use the following command to clone the repository:
 
 ```
-git clone https://github.com/grisoniFr/WHALES_descriptors.git
+git clone https://github.com/grisoniFr/whales_descriptors.git
+```
+To install the necessary packages to run the code, [conda](https://www.anaconda.com/download/) is recommended.  <br /> 
+Once conda is installed, you can install the virtual environment:
+```
+cd path/to/repository/
+conda env create -f whales_environment.yml
 ```
 
-Change directory to your local Git repository and to the main WHALES folder e.g., < git_repository\current_user>\WHALES-descriptors\ 
-
-Then, install the package as follows:
+To activate the dedicated environment:
 ```
-sudo python setup.py install
+conda activate whales_environment
 ```
-To check whether the installation went well, type 
-```
-python 
-import whales_descriptors
-quit()
-```
-If no errors are displayed, WHALES package has been succesfully installed. 
+Your code should now be ready to use!
 
 ## Using the code <a name="using the code"></a>
 
