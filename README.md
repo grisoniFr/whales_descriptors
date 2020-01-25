@@ -23,6 +23,8 @@ Francesca Grisoni, Daniel Merk, Viviana Consonni, Jan A. Hiss, Sara Giani Taglia
 ## What is new in version 2
 in progress
 
+You can access the previous version (WHALES v.1.1) at the following [here](https://github.com/grisoniFr/whales_descriptors/tree/v.1.1)
+
 ## Getting Started <a name="getting started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine.
