@@ -147,6 +147,7 @@ See also the list of [contributors](https://github.com/FrancescaGrisoni/whales_d
 * Merk et al. "Scaffold hopping from synthetic RXR modulators by virtual screening and de novo design", *Med. Chem. Commun.*, 2018, 9, 1289-1292. ([link](https://pubs.rsc.org/en/content/articlepdf/2018/md/c8md00134k))
 * Merk et al. "De Novo Design of Bioactive Small Molecules by Artificial Intelligence", *Mol. Inf.*, 2018, 1700153. ([link](https://onlinelibrary.wiley.com/doi/epdf/10.1002/minf.201700153))
 * Grisoni et al. "Scaffold-hopping from synthetic drugs by holistic molecular representation", *Scientific reports* 8, 2018. ([link](https://www.nature.com/articles/s41598-018-34677-0))
+* Grisoni et al. "Design of Natural‐Product‐Inspired Multitarget Ligands by Machine Learning", *ChemMedChem* 14, 2019. ([link](https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cmdc.201900097))
 
 ## License
 
