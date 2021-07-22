@@ -2,6 +2,8 @@
 ![python version](https://img.shields.io/badge/python-v.2.6-blue)
 ![license](https://img.shields.io/badge/license-CC_BY_4.0-orange)
 
+### NEW version!!
+Check out our new version of this code (for Python 3, with improved molecule loading and optimization) [here](https://github.com/grisoniFr/scaffold_hopping_whales).
 
 # WHALES descriptors
 
